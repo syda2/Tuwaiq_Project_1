@@ -1,0 +1,65 @@
+﻿
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:   'Oswald', sans-serif;
+    background-image: url("../img/p08wpw9p.jpg" );
+ background-size: cover;
+ background-attachment: fixed;
+ color:whitesmoke;
+
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+header{
+
+	background-color:goldenrod;
+	padding: 10px 0;
+}
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.header-content .brand{
+	font-size: 32px;
+	text-decoration: none;
+	color: white;
+}
+
+/* nav{
+	display: flex;
+} */
+nav ul{
+	display: flex;
+list-style: none;
+
+}
+nav li a{
+	display: block;
+	color: white;
+	min-width: 80px;
+
+}
+
+.d1{
+	width: 100%;
+	height: 300;
+	background-color: white;
+}.top-text{
+	margin-top: 20px;
+	margin-left: 40px;
+	padding-top: 40px;
+}
+.card{
+	color: black;
+}
