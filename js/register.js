@@ -1,5 +1,5 @@
 let user=document.querySelector("#username");
-let email=document.querySelector("email");
+let email=document.querySelector("#email");
 let password=document.querySelector("#password");
 let regisBtn=document.querySelector("#sginup");
 
@@ -10,9 +10,9 @@ regisBtn.addEventListener('click', function(){
     if(user.value === ""||email.value === ""||password.value === ""){
         alert("please enter your Data");
     }else{
-        localStorage.setItem('user',user.value);
-        localStorage.setItem('email',email.value);
-        localStorage.setItem('password',password.value);
+        window.localStorage.setItem('user',user.value);
+        window.localStorage.setItem('email',email.value);
+        window.localStorage.setItem('password',password.value);
       
         
     }
