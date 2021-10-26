@@ -85,9 +85,7 @@ nav li a{
 .section-form  form input [type=submit]:hover{
 	opacity: 0.8;
 }
-nav ul#user_info{
-	display: none;
-}
+
 /* تنسيق السله */
 .products{
 	width: 60%;

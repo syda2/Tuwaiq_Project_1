@@ -20,7 +20,7 @@ regisBtn.addEventListener('click', function(){
 
 setTimeout(()=>{
 
-window.location='prducte.html';
+window.location='login.html';
 },1500)
 
 
