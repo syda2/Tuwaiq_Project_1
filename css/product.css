@@ -47,58 +47,47 @@ nav li a{
 }
 /* نموذج التسجيل
  */
-.section-form{
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-}
-.section-form h2{
-	font-size: 50px;
-	letter-spacing: 2px;
-	color: goldenrod;
-}
 
-.section-form {
-	background: gray;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	width: 60%;
-	text-align: center;
-	padding: 40px;
-}
-.section-form form input{
-	display: block;
-	width: 100%;
-	margin: 5px 0;
-	height: 40px;
-	border: 1px solid white;
-	padding: 5px;
-	
-}
-.section-form form input[type=submit]{
-	font-size: 25px;
-	height: auto;
-	cursor: pointer;
-}
-.section-form  form input [type=submit]:hover{
-	opacity: 0.8;
-}
-nav ul#user_info{
-	display: none;
-}
 /* تنسيق السله */
 .products{
 	width: 60%;
 	margin: 10px 0;
 }
-.products-item{
+ .products-item{
 	display: flex;
 	width:100%;
+    justify-content: space-between;
  border: 1px solid black;
+ 
+ justify-content: space-between;
 }
 .product-item-img{
 	width:25%;
+    margin-right: 10px;
+    
+
+}
+.products-item .add-to-cart{
+
+
+}
+.product-item-action{
+    flex:1;
+    text-align: right;
+
+}
+.products-item-action .add-to-cart{
+    display: block;
+    background-color:green;
+    margin-left: auto;
+    color: lavender;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+
+.products-item-action .favorite {
+    cursor: pointer;
 
 }

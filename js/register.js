@@ -16,9 +16,15 @@ regisBtn.addEventListener('click', function(){
       
         
     }
+
+
+setTimeout(()=>{
+
+window.location='prducte.html';
+},1500)
+
+
 });
-
-
 
 
 

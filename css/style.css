@@ -63,3 +63,17 @@ nav li a{
 .card{
 	color: black;
 }
+
+
+
+
+
+
+
+/* هنا سويت تعديل صفحة التسجيل  */
+nav ul#user_info{
+	display: none;
+}
+
+
+
