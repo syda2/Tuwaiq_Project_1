@@ -6,7 +6,9 @@
 body{
 
 	font-family:  'Oswald', sans-serif;
-    /* background-image: url("../img/p08wpw9p.jpg" );
+	background-color:whitesmoke;
+
+ /* background-image: url("../img/image.jpg" );
  background-size: cover;
  background-attachment: fixed; */
 
@@ -85,18 +87,7 @@ nav li a{
 .section-form  form input [type=submit]:hover{
 	opacity: 0.8;
 }
-
-/* تنسيق السله */
-.products{
-	width: 60%;
-	margin: 10px 0;
-}
-.products-item{
-	display: flex;
-	width:100%;
- border: 1px solid black;
-}
-.product-item-img{
-	width:25%;
-
+.card{
+	background-color: whitesmoke;
+	border-radius: 10px;
 }

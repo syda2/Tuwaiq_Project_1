@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
-    <title>Shopping cart|Login page</title>
+    <title>Login page</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="../css/login.css">
 </head>
@@ -20,12 +20,12 @@
 
        <nav>
            <ul>
-           <li>
+           <!-- <li>
                <a href="login.html">Sgin in</a>
 
-           </li>
+           </li> -->
            <li>
-            <a href="register.html">Sgin up</a>
+            <a href="../Html/index.html">Home</a>
             
         </li>
     </ul>
@@ -36,13 +36,14 @@
   
    <section class="section-form">
     <h2>Login User</h2>
-<form>
+<form id="form">
     <input type="text" placeholder="Enter username" id="username"/>
     <input type="password" placeholder=" Enter password" id="password"/>
     <input type="button" value="Sign in" id ="Sgin">
+   If You dont have account<br><a href="register.html">Register</a>
 </form>
 
    </section>
-   <script src="login.js"> </script>
+   <script src="../js/login.js"> </script>
 </body>
 </html>

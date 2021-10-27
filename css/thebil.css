@@ -1,0 +1,27 @@
+.row{
+    text-align: center;
+    font-weight: bold;
+}
+.list-group{
+    padding: 0;
+}
+.row h1{
+    color: black;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+#ok{display: block;
+    margin-left:auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+}
+body{
+    background-color: whitesmoke;
+    font-family: cursive;
+}
+#ok{
+    width: 40%;
+    background-color: goldenrod;
+    border: white;
+}
