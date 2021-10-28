@@ -8,7 +8,7 @@ user_info.style.display= "flex";
  userDom.innerHTML=localStorage.getItem("user");
 }
 logoutbtn.addEventListener('click',function (){
- localStorage.clear();
+//  localStorage.clear();
 
 
   setTimeout(()=>{
