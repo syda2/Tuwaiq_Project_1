@@ -8,21 +8,21 @@ regisBtn.addEventListener('click', function(){
 
 
     if(user.value === ""||email.value === ""||password.value === ""){
-        alert("please enter your Data");
+        swal("please enter your Information");
     }else{
         window.localStorage.setItem('user',user.value);
         window.localStorage.setItem('email',email.value);
         window.localStorage.setItem('password',password.value);
       
         
-    }
+    
 
 
 setTimeout(()=>{
 
 window.location='login.html';
 },1500)
-
+    }
 
 });
 

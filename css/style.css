@@ -106,3 +106,28 @@ nav ul#user_info{
 .carousel-caption .d-none .d-md-block{
 	color: white;
 }
+
+@media only screen and (max-width: 768px) {
+	.container {
+		text-align: center;
+	  }
+	
+	  .container-nav {
+		flex-direction: column;
+	  }
+	
+	  nav ul {
+		flex-direction: column;
+	  }
+	
+	  nav li {
+		margin: 0.8em 0;
+	  }
+	  .header-content .brand{
+		font-size: 32px;
+		text-decoration: none;
+		color: white;
+		margin-left: 2px;
+	}
+
+}

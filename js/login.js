@@ -7,7 +7,8 @@ let getpass=localStorage.getItem('password');
 loginbt.addEventListener('click',function(){
    
     if(username.value === ""||password.value === ""){
-        alert("please Enter your Data")
+        // alert("please Enter your Data")
+        swal("please enter your Information");
     }else if( (getuser.trim() ===  username.value.trim()) &&  (getpass.trim() === password.value.trim())){
    
 setTimeout(()=>{
@@ -19,7 +20,7 @@ setTimeout(()=>{
     
 
       }else{
-          alert("user name or password is wrong");
+          swal("user name or password is wrong");
       }
         
     

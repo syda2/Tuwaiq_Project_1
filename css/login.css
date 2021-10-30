@@ -85,3 +85,20 @@ nav li a{
 .section-form  form input [type=submit]:hover{
 	opacity: 0.8;
 }
+
+@media only screen and (max-width: 768px) {
+	
+	.section-form {
+		background: gray;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+	
+		text-align: center;
+		padding: 40px;
+	}
+body{
+
+}
+}
